@@ -16,3 +16,13 @@ for(let list of lists)
 list.style.fontWeight = 'bold'
 lists[2].style.backgroundColor = 'green'
 
+// third task 
+let parent1 = document.getElementsByClassName('list-group')
+let pItems = document.getElementsByTagName('li')
+console.log(pItems.length)
+let li = document.createElement('li')
+let msgNode = document.createTextNode('new item')
+  li.appendChild(msgNode)
+  pItems[3].appendChild(li)
+   
+
